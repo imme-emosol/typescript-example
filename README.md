@@ -28,7 +28,7 @@ Load the source file for the desired Elix component as a module. You can bundle 
 ```html
 <html>
   <head>
-    <script src="node_modules/elix/src/DateComboBox.js"></script>
+    <script type="module" src="node_modules/elix/src/DateComboBox.js"></script>
   </head>
   <body>
     <elix-date-combo-box date="1 Jan 2020"></elix-date-combo-box>
