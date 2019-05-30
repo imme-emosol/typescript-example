@@ -2,7 +2,7 @@
   "name": "typescript-example",
   "version": "1.0.0",
   "devDependencies": {
-    "elix": "git://github.com/elix/elix.git#typescript-typings",
+    "elix": "git://github.com/JanMiksovsky/elix.git#typescript-typings",
     "ts-loader": "6.0.1",
     "typescript": "3.4.5",
     "webpack": "4.32.2",

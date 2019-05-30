@@ -1,15 +1,13 @@
-import Button from 'elix/src/Button.js';
-// import { Button } from 'elix';
-import * as symbols from 'elix/src/symbols.js';
+// Import the Elix components we want to use.
+import DateComboBox from 'elix/src/DateComboBox.js';
 
-const button = new Button();
-// button.textContent = 'Hello';
+// Instantiate an Elix component.
+const dateComboBox = new DateComboBox();
 
-document.body.appendChild(button);
-button.inner.textContent = 'Goodbye';
-const delegatesFocus = button[symbols.delegatesFocus];
-console.log(delegatesFocus);
+// TypeScript knows that a DateComboBox's `date` property is strongly typed as a
+// JavaScript Date.
+dateComboBox.date = new Date('1 Jan 2021');
 
-const s = Symbol();
-button[s] = 'hello';
-console.log(button[s]);
+// We can add the components to the page like any other HTML elements.
+// We can also put components in the page via markup; see index.html.
+document.body.appendChild(dateComboBox);
