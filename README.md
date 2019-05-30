@@ -9,6 +9,7 @@ Enter the following in a terminal window:
 git clone git@github.com:elix/typescript-example.git
 cd typescript-example
 npm install
+npm run build
 npx http-server
 ```
 
