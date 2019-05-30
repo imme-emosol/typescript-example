@@ -10,7 +10,6 @@
   },
   "scripts": {
     "build": "webpack",
-    "postinstall": "build",
     "watch": "webpack --watch"
   }
 }
