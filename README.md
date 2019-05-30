@@ -1,4 +1,4 @@
-This repository shows how a TypeScript project can consume any web component, including any web component from the [Elix](https://component.kitchen/library) library.
+This repository shows how a TypeScript project can consume any web component, including any web component from the [Elix](https://component.kitchen/Elix) library.
 
 
 # Quick start
