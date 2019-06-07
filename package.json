@@ -4,7 +4,7 @@
   "devDependencies": {
     "elix": "git://github.com/elix/elix.git#master",
     "ts-loader": "6.0.1",
-    "typescript": "3.4.5",
+    "typescript": "3.5.1",
     "webpack": "4.32.2",
     "webpack-cli": "3.3.2"
   },
