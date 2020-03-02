@@ -2,11 +2,11 @@
   "name": "typescript-example",
   "version": "1.0.0",
   "devDependencies": {
-    "elix": "8.0.0",
-    "ts-loader": "6.0.4",
-    "typescript": "3.6.2",
-    "webpack": "4.39.3",
-    "webpack-cli": "3.3.8"
+    "elix": "11.0.1",
+    "ts-loader": "6.2.1",
+    "typescript": "3.8.3",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11"
   },
   "scripts": {
     "build": "webpack",
