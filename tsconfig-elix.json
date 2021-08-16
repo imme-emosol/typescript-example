@@ -2,15 +2,11 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "allowJs": true,
-    "baseUrl": ".",
     "forceConsistentCasingInFileNames": true,
     "module": "ES2020",
     "moduleResolution": "Node",
-    "outDir": "public/scripts",
-    "rootDirs": [
-      "./src",
-      "./node_modules"
-    ],
+    "outDir": "public/scripts/elix",
+    "rootDir": "node_modules/elix",
     "removeComments": true,
     "skipLibCheck": true,
     "sourceMap": true,
@@ -19,11 +15,9 @@
   },
   "display": "Elix for up to date UserAgents",
   "exclude": [
-    "node_modules/(?!elix)",
   ],
   "include": [
-    "src/**/*.ts",
-    "elix/**/*.js"
+    "node_modules/elix"
   ],
   "noEmitOnError": true,
 }
